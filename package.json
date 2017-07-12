@@ -1,0 +1,28 @@
+{
+  "name": "foobot-users",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brymastr/foobot-users.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brymastr/foobot-users/issues"
+  },
+  "homepage": "https://github.com/Brymastr/foobot-users#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "mongoose": "^4.11.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.4"
+  }
+}

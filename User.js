@@ -11,6 +11,10 @@ module.exports = mongoose.model('User', Schema({
   gender: String,
   facebook_token: String,
   foobot_token: String,
-  platform_ids: [Number],
   date_created: { type: Date, default: Date.now },
+  platform_ids: [{
+    name: String,
+    id: String,
+    _id: false
+  }]
 }));

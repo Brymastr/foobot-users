@@ -6,6 +6,7 @@ const
 module.exports = mongoose.model('User', Schema({
   first_name: String,
   last_name: String,
+  username: String,
   phone: Number,
   email: String,
   gender: String,

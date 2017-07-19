@@ -10,8 +10,8 @@ mongoose.Promise = Promise;
 main();
 
 async function main() {
-  app.use(require('./routes'));
   app.use(bodyParser());
+  app.use(require('./routes'));
 
   await connect(dbConnect, config.DB_CONNECTION_ATTEMPTS, config.DB_CONNECTION_RETRY_INTERVAL);
 
